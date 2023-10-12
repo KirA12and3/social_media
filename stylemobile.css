@@ -1,0 +1,111 @@
+body {font-family: Georgia; background-color: rgb(240, 255, 0);}
+
+#yellow-bar {
+  min-height: 50px;
+  background-color: yellow;
+  font-weight: bold;
+  width: 390px;
+  padding-bottom: 10px;
+  padding-top: -5px;
+}
+#top {
+  width: 390px;
+  font-size: 30px;
+}
+#search_box {
+  border-radius: 5px;
+  width: 195px;
+  height: 20px;
+  border: none;
+  padding: 4px;
+  font-size: 14px;
+  background-color: black;
+  color: yellow;
+}
+#my_pic {
+  border-radius: 50%; width: 45px; float: right;
+  margin-bottom: 0;
+}
+#content {
+  width: 390px;margin:auto;min-height:300px;
+  color: black;
+}
+#png {
+  border-radius: 50%; 
+  max-width: 150px; 
+  margin-top: -300px;
+  border: solid 2px yellow;
+}
+.profile_buttons {
+  border: none;
+  cursor: pointer;
+  font-family: Georgia;
+  padding-right: 20px;
+  background-color: transparent;
+  color: red;
+}
+#users {
+  max-width: 60px;
+  height:60px;
+  float: left;
+  margin: 4px;
+}
+#friends_bar {
+  background-color: black;
+  min-height: 300px;
+  margin-top: 20px;
+  color: yellow;
+  padding: 4px;
+  width: 130px;
+}
+
+#friends {
+  clear: both;
+  font-size: 12px;
+  font-weight: bold;
+  color: yellow;
+}
+textarea {
+  width: 213px;
+  border: none;
+  font-family: Cambria;
+  height: 60px;
+  background-color: black;
+  color: yellow;
+}
+#post_box {
+  border: solid thin black; 
+  padding: 8px;
+  background-color: black;
+  padding-bottom: 30px;
+  width: 213px;
+}
+#post_button {
+  float: right;
+  background-color: yellow;
+  border:none;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 5%;
+  max-width: 50px;
+}
+#post_bar {
+  margin-top: 20px;
+  background-color: black;
+  padding: 10px;
+  width: 213px;
+  padding-left: none;
+}
+#posts {
+  padding: 4px;
+  font-size: 14px;
+  display: flex;
+  margin-bottom: 20px;
+}
+a {
+  color: red;
+}
+
+@media only screen and (min-width:768px) {
+  
+}
